@@ -2,6 +2,6 @@
 
 ## 删除用户
 
-```mysql
+```sql
 DELETE FROM table_name WHERE table_column = "column_name";
 ```

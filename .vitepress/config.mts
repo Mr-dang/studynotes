@@ -6,6 +6,14 @@ export default defineConfig({
   title: "Mr-dang的学习笔记",
   description: "HTML,CSS,JavaScript,JAVA,SQL,Linux",
   base: '/studynotes/',
+  head: [
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/studynotes/apple-touch-icon.png" }],
+    ['link', { rel: "icon", href: "/studynotes/favicon.ico" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/studynotes/favicon-32x32.png" }],
+    ['link', { rel: "shortcut icon", type: "image/x-icon", sizes: "32x32", href: "/studynotes/favicon-32x32.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/studynotes/favicon-16x16.png" }],
+    ['link', { rel: "manifest", href: "/studynotes/site.webmanifest" }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
