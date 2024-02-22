@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import databasesConfig from './sidebars/database.mts'
+import linuxConfig from './sidebars/linux.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,10 +19,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '数据库', link: '/databases/sql-base.md' }
+      { text: 'Linux', link: '/linux/common' },
+      { text: '数据库', link: '/databases/sql-base' },
     ],
 
     sidebar: [
+      linuxConfig,
       databasesConfig,
     ],
 

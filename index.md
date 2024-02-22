@@ -8,11 +8,11 @@ hero:
   tagline: 个人学习笔记，仅供日常参考
   actions:
     - theme: brand
+      text: Linux常用命令
+      link: /linux/base
+    - theme: alt
       text: SQL常用语句
       link: /databases/sql-base
-    - theme: alt
-      text: Mysql/MariaDB 用户操作
-      link: /databases/mysql-mariadb-users
 
 features:
   - title: Feature A
