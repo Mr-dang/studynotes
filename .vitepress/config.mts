@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import databasesConfig from './sidebars/database.mts'
 import linuxConfig from './sidebars/linux.mts'
+import nodejsConfig from './sidebars/nodejs.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -26,6 +27,7 @@ export default defineConfig({
     sidebar: [
       linuxConfig,
       databasesConfig,
+      nodejsConfig,
     ],
 
     socialLinks: [
