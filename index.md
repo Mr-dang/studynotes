@@ -8,8 +8,14 @@ hero:
   tagline: 个人学习笔记，仅供日常参考
   actions:
     - theme: brand
-      text: Linux常用命令
-      link: /linux/base
+      text: 前端
+      link: /front-end/common-problems
+    - theme: alt
+      text: nodejs
+      link: /nodejs/common-problems
+    - theme: alt
+      text: Linux
+      link: /linux/common
     - theme: alt
       text: SQL常用语句
       link: /databases/sql-base

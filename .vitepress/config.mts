@@ -21,15 +21,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '前端', link: '/front-end/common-problems' },
+      { text: 'nodejs', link: '/nodejs/common-problems' },
       { text: 'Linux', link: '/linux/common' },
       { text: '数据库', link: '/databases/sql-base' },
     ],
 
     sidebar: [
       frontEndConfig,
+      nodejsConfig,
       linuxConfig,
       databasesConfig,
-      nodejsConfig,
     ],
 
     socialLinks: [
