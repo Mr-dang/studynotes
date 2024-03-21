@@ -8,6 +8,7 @@ const linuxConfig: DefaultTheme.SidebarItem = {
     { text: 'ubuntu', link: '/linux/ubuntu' },
     { text: 'Linux用户和权限管理', link: '/linux/user-right' },
     { text: 'find', link: '/linux/find' },
+    { text: 'NGINX', link: '/linux/nginx' },
   ]
 };
 
