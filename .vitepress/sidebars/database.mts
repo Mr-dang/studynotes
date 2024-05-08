@@ -7,7 +7,8 @@ const databasesConfig: DefaultTheme.SidebarItem = {
     { text: 'Mysql/MariaDB 用户操作', link: '/databases/mysql-mariadb-users' },
     { text: 'Mysql/MariaDB 配置文件', link: '/databases/mysql-mariadb-config' },
     { text: '安装mysql', link: '/databases/install-mysql' },
-    { text: 'mysql vs bbigquery', link: '/databases/mysql-vs-bigquery' },
+    { text: 'mysql vs bigquery', link: '/databases/mysql-vs-bigquery' },
+    { text: 'MongoDB笔记', link: '/databases/mongo-db' },
   ]
 };
 
