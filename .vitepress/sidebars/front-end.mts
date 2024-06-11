@@ -5,7 +5,8 @@ const frontEndConfig: DefaultTheme.SidebarItem = {
   items: [
     { text: '前端常见问题', link: '/front-end/common-problems' },
     { text: '在线vue示例', link: '/front-end/vue-cdn-example' },
-    { text: 'vue组件封装', link: '/front-end/vue-component-encapsulates' },
+    { text: 'vue技巧', link: '/front-end/vue-tips' },
+    { text: 'vue-router技巧', link: '/front-end/vue-router-tips' },
     { text: 'TypeScript笔记', link: '/front-end/typescript' },
   ]
 };

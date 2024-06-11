@@ -34,3 +34,11 @@ find / -xdev -size +10M -size -20M -type f
 find / -xdev -size +10M -type f -print0 | xargs -0 ls -Ssh1 --color
 find / -xdev -size +10M -size -20M -type f -print0 | xargs -0 ls -Ssh1 --color
 ```
+
+## 查找特定的文件执行删除操作
+
+```shell
+find . -type f -name '*.lastUpdated' -exec rm -rf {} \;
+find . -type f -name m2e-lastUpdated.properties -exec rm -rf {} \;
+find . -type f -name _remote.repositories -exec rm -rf {} \;
+```
