@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Mr-dang/studynotes#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.41"
+    "vitepress": "^1.2.3"
   }
 }
