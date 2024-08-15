@@ -9,6 +9,7 @@ const frontEndConfig: DefaultTheme.SidebarItem = {
     { text: 'vue-router技巧', link: '/front-end/vue-router-tips' },
     { text: 'TypeScript笔记', link: '/front-end/typescript' },
     { text: '自定义元素', link: '/front-end/custom-elements' },
+    { text: '前端开发小技巧', link: '/front-end/js-skills' },
   ]
 };
 
