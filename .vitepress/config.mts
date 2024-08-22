@@ -3,6 +3,7 @@ import databasesConfig from './sidebars/database.mts'
 import linuxConfig from './sidebars/linux.mts'
 import nodejsConfig from './sidebars/nodejs.mts'
 import frontEndConfig from './sidebars/front-end.mts'
+import javaConfig from './sidebars/java.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,6 +26,7 @@ export default defineConfig({
       { text: 'nodejs', link: '/nodejs/common-problems' },
       { text: 'Linux', link: '/linux/base' },
       { text: '数据库', link: '/databases/sql-base' },
+      { text: 'Java', link: '/java/concept' },
     ],
 
     sidebar: [
@@ -32,6 +34,7 @@ export default defineConfig({
       nodejsConfig,
       linuxConfig,
       databasesConfig,
+      javaConfig,
     ],
 
     socialLinks: [

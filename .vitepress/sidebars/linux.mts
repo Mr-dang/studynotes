@@ -10,6 +10,9 @@ const linuxConfig: DefaultTheme.SidebarItem = {
     { text: 'find', link: '/linux/find' },
     { text: 'NGINX', link: '/linux/nginx' },
     { text: 'vpn', link: '/linux/vpn' },
+    { text: 'apt/apt-get', link: '/linux/apt-apt-get' },
+    { text: 'deb', link: '/linux/deb' },
+    { text: 'tar', link: '/linux/tar' },
   ]
 };
 
