@@ -4,6 +4,7 @@ import linuxConfig from './sidebars/linux.mts'
 import nodejsConfig from './sidebars/nodejs.mts'
 import frontEndConfig from './sidebars/front-end.mts'
 import javaConfig from './sidebars/java.mts'
+import toolsSoftwaresConfig from './sidebars/tools-softwares.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,6 +28,7 @@ export default defineConfig({
       { text: 'Linux', link: '/linux/base' },
       { text: '数据库', link: '/databases/sql-base' },
       { text: 'Java', link: '/java/concept' },
+      { text: '工具&软件', link: '/tools-softwares/openvpn' },
     ],
 
     sidebar: [
@@ -35,6 +37,7 @@ export default defineConfig({
       linuxConfig,
       databasesConfig,
       javaConfig,
+      toolsSoftwaresConfig,
     ],
 
     socialLinks: [
