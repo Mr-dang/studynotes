@@ -12,7 +12,7 @@ drwxr-xr-x 2 danglm danglm 4096 Aug 24 14:47 Downloads
 drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:20 Music
 ```
 
-![用户权限示意图](/studynotes/images/file-permissions-rwx.jpg)
+![用户权限示意图](https://mr-dang.github.io/studynotes/images/file-permissions-rwx.jpg)
 
 ## 用户
 
