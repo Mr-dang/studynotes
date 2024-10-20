@@ -1,5 +1,19 @@
 # Linux用户、用户组、权限管理
 
+```shell
+danglm@pi:~ $ ls -l
+total 56
+drwxr-xr-x 3 danglm danglm 4096 Aug 22 22:13 bin
+drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:10 Bookshelf
+drwxr-xr-x 5 danglm danglm 4096 Oct 19 19:44 coding
+drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:20 Desktop
+drwxr-xr-x 2 danglm danglm 4096 Aug 23 15:32 Documents
+drwxr-xr-x 2 danglm danglm 4096 Aug 24 14:47 Downloads
+drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:20 Music
+```
+
+![用户权限示意图](/studynotes/images/file-permissions-rwx.jpg)
+
 ## 用户
 
 - `adduser` 添加新的用户(也可使用useradd)

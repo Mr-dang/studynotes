@@ -24,5 +24,15 @@ sudo mount.cifs //server.hostname/share_folder /path/to/nas-share-folder -o user
 在 `/etc/fstab` 文件中增加一行:
 
 ```shell
-//192.168.1.121/share_folder /path/to/nas-share-folder cifs username=<smba-user>,password=<smbba-password> 0 0
+//192.168.1.121/share_folder /path/to/nas-share-folder cifs username=<smba-user>,password=<smba-password> 0 0
+```
+
+## 修改`/etc/fstab`立刻生效
+
+```shell
+# 使用systemctl
+sudo systemctl daemon-reload
+
+# 或者使用 mount -a
+sudo mount -a
 ```
