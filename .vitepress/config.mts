@@ -5,11 +5,12 @@ import nodejsConfig from './sidebars/nodejs.mts'
 import frontEndConfig from './sidebars/front-end.mts'
 import javaConfig from './sidebars/java.mts'
 import toolsSoftwaresConfig from './sidebars/tools-softwares.mjs'
+import devopsConfig from './sidebars/devops.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mr-dang的学习笔记",
-  description: "HTML,CSS,JavaScript,JAVA,SQL,Linux",
+  description: "HTML,CSS,JavaScript,JAVA,SQL,devops",
   base: '/studynotes/',
   head: [
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/studynotes/apple-touch-icon.png" }],
@@ -26,6 +27,7 @@ export default defineConfig({
       { text: '前端', link: '/front-end/common-problems' },
       { text: 'nodejs', link: '/nodejs/common-problems' },
       { text: 'Linux', link: '/linux/base' },
+      { text: 'devops', link: '/devops/docker' },
       { text: '数据库', link: '/databases/sql-base' },
       { text: 'Java', link: '/java/concept' },
       { text: '工具&软件', link: '/tools-softwares/openvpn' },
@@ -35,6 +37,7 @@ export default defineConfig({
       frontEndConfig,
       nodejsConfig,
       linuxConfig,
+      devopsConfig,
       databasesConfig,
       javaConfig,
       toolsSoftwaresConfig,

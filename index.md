@@ -15,7 +15,7 @@ hero:
       link: /nodejs/common-problems
     - theme: alt
       text: Linux
-      link: /linux/common
+      link: /linux/base
     - theme: alt
       text: SQL常用语句
       link: /databases/sql-base
