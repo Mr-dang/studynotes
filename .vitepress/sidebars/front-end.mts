@@ -12,6 +12,7 @@ const frontEndConfig: DefaultTheme.SidebarItem = {
     { text: '前端开发小技巧', link: '/front-end/js-skills' },
     { text: 'CSS新特性', link: '/front-end/css-new-features' },
     { text: 'HTML不常见的用法', link: '/front-end/html' },
+    { text: '工程化之vite', link: '/front-end/vite' },
   ]
 };
 
