@@ -20,6 +20,18 @@ drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:20 Music
 - `deluser` 删除用户(也可使用userdel)
 - `usermod` 修改账号
 - `passwd` 更改用户密码
+- `su` 切换用户
+- 新增用户: `adduser <username>`
+- 将用户加入`sudo`组: `usermod -aG sudo <username>`
+- 删除用户: `deluser <username>`
+- 修改用户密码: `passwd <username>`
+- 切换用户: `su <username>`
+- 查看用户所属的组: `groups <username>`
+- 查看用户所属的主组: `id -gn <username>`
+- 查看用户所属的所有组: `id -Gn <username>`
+- 查看所有用户: `cat /etc/passwd`
+- 查看所有用户组: `cat /etc/group`
+- 查看当前用户: `whoami`
 
 ## 用户组
 
@@ -32,16 +44,19 @@ drwxr-xr-x 2 danglm danglm 4096 Jul  4 08:20 Music
 
 ```shell
 /etc/passwd
-    root:x:0:0:root:/root:/bin/bash // 一行记录对应着一个用户，每行记录又被冒号(:)分隔为7个字段
-//  用户名:口令:用户标识号:组标识号:注释性描述:主目录:登录Shell
 
-/etc/shadow  // 加密后的口令
-    root:!:17630:0:99999:7:::
-//  登录名:加密口令:最后一次修改时间:最小时间间隔:最大时间间隔:警告时间:不活动时间:失效时间:标志
+# 用户名:口令:用户标识号:组标识号:注释性描述:主目录:登录Shell
+root:x:0:0:root:/root:/bin/bash // 一行记录对应着一个用户，每行记录又被冒号(:)分隔为7个字段
 
-/etc/group //
-    root:x:0:
-//  组名:口令:组标识号:组内用户列表
+/etc/shadow
+
+# 登录名:加密口令:最后一次修改时间:最小时间间隔:最大时间间隔:警告时间:不活动时间:失效时间:标志
+root:!:17630:0:99999:7:::
+
+/etc/group
+
+# 组名:口令:组标识号:组内用户列表
+root:x:0:
 ```
 
 ## chown 改变文件所属的用户和用户组(chang owner)
