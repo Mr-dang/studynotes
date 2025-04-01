@@ -130,3 +130,4 @@ dist
 .pnp.*
 .vitepress/dist
 .vitepress/cache
+test.js
