@@ -68,6 +68,25 @@
 }
 </style>
 
+## CSS技巧
+
+### dialog元素
+
+`dialog`元素的背景元素是个伪元素，可以设置样式，如背景色：
+
+```css
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+```
+
+`dialog`元素打开时，会自动添加`open`属性，我们可以用这个属性来控制body的滚动：
+```css
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+```
+
 ## 不常见的css属性
 
 ### 行盒的截断属性
@@ -81,6 +100,7 @@ span.highlight {
   box-decoration-break: clone; // slice 截断，clone 保留
 }
 ```
+
 
 ## sass/scss
 
