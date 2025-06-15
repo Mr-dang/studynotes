@@ -84,8 +84,44 @@ cat /proc/meminfo | grep Mem # 单位为KB
 
 ## 端口、进程
 
-查看某个占用某个端口的进程:
+### 查看某个占用某个端口的进程:
 
 ```shell
 lsof -i:8080
+```
+
+### 查看当前系统所有端口的使用情况:
+
+```shell
+netstat -tuln
+```
+### 查看当前系统所有进程
+
+```shell
+ps -aux
+```
+### 查看当前系统所有进程占用的内存
+
+```shell
+ps -aux --sort=-%mem | head
+```
+### 查看当前系统所有进程占用的CPU
+
+```shell
+ps -aux --sort=-%cpu | head
+```
+### 查看当前系统所有进程占用的磁盘空间
+
+```shell
+ps -aux --sort=-%cpu | head
+```
+### 查看当前系统所有进程占用的虚拟内存
+
+```shell
+ps -aux --sort=-vsz | head
+```
+### 查看当前系统所有进程占用的物理内存
+
+```shell
+ps -aux --sort=-rss | head
 ```
